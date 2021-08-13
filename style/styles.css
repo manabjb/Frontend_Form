@@ -1,1 +1,86 @@
 
+.title
+{
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 7s ease-in-out;
+}
+.title h1
+{
+    font-size: 33px;
+    font-family: sans-serif;
+}
+.title h2
+{
+    font-size: 17px;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 50, 5.0),rgba(0, 0, 50, 0.5)),url(https://images.unsplash.com/photo-1599324862754-86bf225ef4c4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1164&q=80);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+form
+{
+    margin: 0px;
+}
+.input
+{
+    outline:none;
+    color: white;
+    width: 379px;
+    background: transparent;
+    border-color: transparent;
+    border-bottom: 1px solid gray;
+    font-size: 17px;
+}
+.input1
+{
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    height: 50px;
+    margin-top: 20px;
+    width: 379px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.input1 span
+{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.input1 span:after
+{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.input1:hover span
+{
+    padding-right: 25px;
+}
+button:hover span:after
+{
+    opacity: 1;
+    right: 0;
+}
+.image
+{
+    border-radius:50%;
+    height:70px;
+    width:70px;
+}
